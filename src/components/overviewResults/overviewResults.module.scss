@@ -1,0 +1,40 @@
+.overviewResult {
+  padding: 32px;
+  display: block;
+  text-align: center;
+  border: 1px solid #DFE0EB;
+  // border-bottom: 1px solid #DFE0EB;
+  text-decoration: none;
+
+  &:hover{
+    border: 1px solid #3751FF;
+
+    h1{
+      color: #3751FF;
+    }
+
+    p{
+      color: #3751FF;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 23px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #9fa2b4;
+  }
+
+  &__count {
+    margin: 0;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #252733;
+  }
+}

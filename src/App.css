@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: #f7f8fc;
+  display: flex;
+}
+
+.main__right{
+  padding: 30px;
+  max-width: 1185px;
+  width: 100%;
+}
